@@ -1,0 +1,58 @@
+html { 
+  background: url(../img/barometer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 100;
+  color: #663300;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: center;
+  font-size: 2em;
+}
+
+p.color {
+  color: #996633;
+}
+
+div.container {
+  background:rgba(255,255,255,.9);
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 100;
+  text-align: center;
+  color: #663300;
+  margin: 0px;
+}
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+
+  div.container {
+    width: 80%;
+    left: 10%;
+  }
+}

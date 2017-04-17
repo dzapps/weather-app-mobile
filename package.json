@@ -1,0 +1,14 @@
+{
+  "name": "weather-app-mobile",
+  "version": "1.0.0",
+  "description": "Weather app for user's location",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellylougheed/weather-app-mobile"
+  },
+  "author": "Kelly Lougheed",
+  "bugs": {
+    "url": "https://github.com/phonegap/phonegap-app-hello-world/issues"
+  },
+  "homepage": "https://www.kellylougheed.com/"
+}
